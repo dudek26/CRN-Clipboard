@@ -35,9 +35,10 @@ base {
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(21)
 
+def modIdValue = mod_id
 jar {
     from('LICENSE') {
-        rename { "${it}_${mod_id}" }
+        rename { "${it}_${modIdValue}" }
     }
 }
 
