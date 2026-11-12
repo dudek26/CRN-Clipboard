@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "eu.dudko.create_crn_clipboard.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+
+  ],
+  "client": [
+    "AdvancedDisplaySettingsWindowMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
