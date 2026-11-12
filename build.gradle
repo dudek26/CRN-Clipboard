@@ -37,7 +37,7 @@ java.toolchain.languageVersion = JavaLanguageVersion.of(21)
 
 jar {
     from('LICENSE') {
-        rename { "${it}_${project.archivesName.get()}" }
+        rename { "${it}_${mod_id}" }
     }
 }
 
